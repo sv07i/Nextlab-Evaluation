@@ -57,7 +57,7 @@ This is algo. for the adjust the weight for particular layer with the back track
 
 Backpropagation uses a methodology called chain rule to improve outputs. Basically, after each forward pass through a network, the algorithm performs a backward pass to adjust the model’s weights with the gradient desent algo.
 
-formula : Wnew = Wold - n*dl/dWold
+formula : Wnew = Wold - n*dL/dWold
 
 (.) App-
 
