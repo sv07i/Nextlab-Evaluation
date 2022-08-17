@@ -51,7 +51,15 @@ And Lastly check cross Val score and I get about 77% .
 And import pipe with the name of nop.pkl.
 
 
-App- 
+(.) Backpropagation -
+
+This is algo. for the adjust the weight for particular layer with the back track.
+
+Backpropagation uses a methodology called chain rule to improve outputs. Basically, after each forward pass through a network, the algorithm performs a backward pass to adjust the model’s weights with the gradient desent algo.
+
+formula : Wnew = Wold - n*dl/dWold
+
+(.) App-
 
 With the help of streamlit I built app which is take a function from the user and predict the check in prediction.
 
